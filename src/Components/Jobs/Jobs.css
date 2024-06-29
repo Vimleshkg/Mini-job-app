@@ -1,0 +1,103 @@
+/* Jobs component styling*/
+.Jobs_mainCont{
+    @apply  bg-[#031931] w-screen
+}
+.searchBar_cont{
+    @apply  mx-[5%] rounded-xl p-2 bg-white flex items-center text-[#B7B7B7] shadow-sm
+}
+
+.searchBar_cont input{
+    @apply w-full  text-lg outline-none
+}
+
+.searchIcon{
+    @apply mx-4 w-10 h-10
+}
+.featuredJobs_mainCont{
+  @apply bg-gradient-to-r from-[#364659] via-[#253746] to-[#142636] rounded-3xl py-10 mt-8
+}
+
+.featuredJobs_cont {
+    @apply flex w-screen  overflow-x-scroll  
+    
+}
+.featuredJobs_head{
+  @apply text-white ml-6 -mb-2 text-xl font-medium -mt-4
+}
+
+.job_mainCont{
+    @apply flex 
+ }
+ .AllJobs_mainCont{
+    @apply bg-[#ccd1d7] mx-[5%] mt-8 rounded-2xl pt-5 flex flex-col items-center
+ }
+
+
+/* Header component styling */
+.header_mainCont{
+    @apply flex justify-between mx-[5%] pt-14 pb-10 text-white items-center
+}
+
+.header_mainCont h1{
+    @apply text-4xl font-bold
+}
+
+.header_mainCont button{
+    @apply text-xl border-2 p-2 px-5 rounded-xl
+}
+
+
+
+/* Job component styling */
+
+.job_Cont{
+   @apply  flex flex-col mx-6 mt-8  
+}
+.Referral_Cont{
+    @apply flex  items-center text-white mx-auto bg-gradient-to-r from-[#18BB9C] to-[#061B38] p-2 w-[80%] rounded-t-2xl text-center
+}
+.Referral_Cont img{
+    @apply mx-2
+}
+
+.jobDetails_cont{
+    @apply p-6 bg-white w-[308px]  rounded-2xl
+}
+.jobDetails_header{
+    @apply flex
+}
+.jobDetails_header img{
+    @apply mr-5
+}
+
+.jobDetails_header div {
+    @apply text-lg overflow-x-scroll 
+}
+.jobDetails_header h1{
+    @apply font-bold 
+}
+
+.jobDetails_body{
+    @apply my-5
+}
+
+.jobDetails_body div{
+     @apply flex items-center 
+}
+.jobDetails_body div img{
+    @apply mr-4
+}
+.jobDetails_body div h1{
+    @apply text-sm
+}
+
+.jobDetails_footer{
+    @apply flex justify-between text-sm
+}
+.jobDetails_footer div{
+    @apply flex items-center p-1 px-3 rounded-2xl bg-[#45BEA74D] text-[#45BEA7] -mr-3
+}
+.jobDetails_footer div img{
+  @apply mr-1
+}
+

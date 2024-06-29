@@ -1,0 +1,155 @@
+/* JobProfile component styling */
+.jobProfile_mainCont {
+    @apply bg-[#031931] py-5 pb-24
+}
+
+.navigatePrev {
+    @apply ml-5;
+}
+
+header {
+    @apply text-xl font-bold text-black;
+}
+
+.ConnectWallet_cont {
+    @apply bg-white flex w-screen justify-center  fixed bottom-16 z-10 ;
+}
+
+.ConnectWallet_cont button {
+    @apply bg-[#1A8770] p-2 px-12 text-2xl my-5 rounded-xl text-white
+}
+
+.viewApplicants_cont{
+  @apply bg-white text-center rounded-2xl mt-5 mx-5
+}
+.viewApplicants_cont h1{
+    @apply text-black text-xl font-bold py-2
+  }
+
+
+
+
+/* JobDesc component styling */
+.jobDesc_cont {
+    @apply bg-white mt-12 mx-5 rounded-2xl relative text-[#666666];
+}
+
+.profilePic {
+    @apply absolute -top-8 left-4 w-16 bg-white rounded-full;
+}
+
+.highPriority-btn {
+    @apply flex justify-end mr-4;
+}
+
+.highPriority-btn div {
+    @apply flex items-center mt-3 p-1 px-3 rounded-2xl bg-[#45BEA74D] text-[#45BEA7];
+}
+
+.highPriority-btn div img {
+    @apply mr-1;
+}
+
+.jobProfile_cont {
+    @apply mx-6 mt-5 pb-12;
+}
+
+.company {
+    @apply text-lg;
+}
+
+.desc {
+    @apply text-sm mt-3;
+}
+
+.extraDetails {
+    @apply mt-6 pl-4;
+}
+
+.extraDetails div {
+    @apply flex flex-wrap mt-3;
+}
+
+.extraDetails div img {
+    @apply mr-3;
+}
+
+.moreDetails h1 {
+    @apply p-1 bg-[#6666664D] mr-2 px-5 rounded-2xl mt-1;
+}
+
+.post_duration {
+    @apply mt-6;
+}
+
+
+
+
+/* ReferJob Component styling */
+.referJob_mainCont {
+    @apply bg-white mx-5 mt-5 rounded-2xl text-[#666666];
+}
+
+.referJob_cont {
+    @apply mx-5 pt-6 pb-6;
+}
+
+.referJob_cont p {
+    @apply text-sm my-2;
+}
+
+.referJob_cont button {
+    @apply text-lg p-1 px-4 text-[#1A8770] border-2 border-[#1A8770] rounded-2xl mt-2;
+}
+
+
+
+
+/* AboutRole component styling */
+.aboutRole_mainCont{
+    @apply bg-white mx-5 rounded-2xl mt-5 text-sm text-[#666666]
+}
+.aboutRole_cont{
+    @apply mx-5 pt-1 pb-10
+}
+
+.aboutRole_cont header{ 
+    @apply mt-6 mb-4
+}
+
+.aboutRole_cont h1{
+    @apply text-lg font-bold mt-6 mb-4 text-black
+}
+.aboutRole_cont p{
+    @apply -mt-2
+}
+.skills_cont{
+    @apply flex flex-wrap w-[80%] -mt-1 
+}
+.skills_cont h2{
+    @apply  py-2 px-5 mt-1 bg-[#6666664D] mr-2 rounded-3xl
+}
+
+.candidatePara{
+    @apply mb-3
+}
+
+ul li{
+     @apply  list-disc ml-7
+}
+
+
+
+
+
+/* AboutCompany component styling */
+.aboutCompany_mainCont{
+    @apply bg-white mt-5 mx-5 rounded-2xl
+}
+.aboutCompany_cont{
+    @apply bg-white mt-5 rounded-2xl mx-5 pt-6 pb-10
+}
+.aboutCompany_cont p{
+    @apply mt-3  text-sm text-[#666666]
+}
+
